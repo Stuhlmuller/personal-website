@@ -1,4 +1,17 @@
 ---
 layout: home
-# Index page
 ---
+
+<section class="px-xl-1 mb-4" aria-labelledby="home-intro">
+  <div class="home-intro">
+    <h1 id="home-intro" class="mt-0 mb-3 fw-bold">Hi, I’m Rodman.</h1>
+    <p class="mb-4">
+      I’m a DevOps and infrastructure engineer. Outside work, I run a Kubernetes homelab
+      and work on Block Library, a project for sharing Minecraft schematics.
+    </p>
+    <div class="d-flex flex-wrap gap-2">
+      <a class="btn" href="{% post_url 2025-07-19-building-a-kubernetes-homelab %}">Kubernetes homelab</a>
+      <a class="btn" href="{{ '/about/' | relative_url }}">About me</a>
+    </div>
+  </div>
+</section>
